@@ -1,12 +1,28 @@
 .ms-container {
-    background-color: #3FB984;
+    background-color: #3fb984;
     width: 800px;
-    height: 500px;
-    border-radius: 0px 0px 25px 25px;
+    height: 700px;
     clip-path: polygon(100% 0, 0 0, 50% 100%);
-}
-
-h1 {
-    color:#31475E;
-}
-
+  }
+  
+  body {
+    background-color: #31475e;
+  }
+  
+  h1 {
+    color: #31475e;
+  }
+  
+  img {
+    background-size: cover;
+  }
+  
+  #alternate-triangle {
+    position: relative;
+    top: 40px;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+  }
+  
